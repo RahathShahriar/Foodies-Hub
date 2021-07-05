@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+.top-banner{
+    background-image: white;
+   
+}
+.flexible-continer{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding: 3%;
+}
+.half-width-img{
+    width: 50%;
+    height: 50%;
+    
+}
+h1{
+    font-size: 50px;
+}
+.blue-colour{
+    color: rgba(13, 131, 228, 0.822);
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(26, 114, 230), cyan);
+    padding: 15px 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: black; 
+}
