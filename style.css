@@ -2,22 +2,46 @@ body{
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    background:100%;
 
 }
+#menu{
+    overflow: hidden;
+    background-color: rgb(203, 244, 250);
+    height: 100px;
+    margin-right: 0px;
+    
+
+}
+#menu ul li {
+    display: inline-block;
+    margin: 20px;
+}
+#menu a{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+    text-decoration: none;
+    margin: 40px;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
 .top-banner{
     background-image: white;
     margin: 20px;
+    
    
 }
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
-    display: flex;
+    
 }
 .half-width{
     width: 50%;
     padding: 3%;
-    
+       
 }
 .half-width img{
     width: 70%;
@@ -46,19 +70,22 @@ p{
 .about{
     background-image: url("Images/Frame-57.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
     background-size: 100% 100%;
     width: 100%;
     height: 0%;
     padding-right: 3%;
 }
-
+.recipe-intro{
+    text-align: center;
+}
 
         
     
     
 .recipe-item{
+    
     width: 30%;
+    margin: 20px;
     margin-left: 3%;
     margin-right: 1%;
     margin-top: 20px;
@@ -67,13 +94,20 @@ p{
     box-shadow: 10px 10px 30px gray;
 }
 .recipe-item img{
-    width:33%;
+    width:80%;
+    padding-left: 30px;
+    border-radius: 25px;
+    
 
 }
 #salad{
     
     border-left: 7px solid;
     border-image: linear-gradient( rgb(52, 126, 85), rgb(95, 230, 113));
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 20px;
+    padding: 20px;
     border-radius: 15px;
     border-image-slice: 1;
     
@@ -91,33 +125,46 @@ p{
     border-radius: 15px;
     border-image-slice: 1;
 }
-.e-mail{
-    border-image: blue;
-    text-align: center;
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    margin-top: 16px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}   
-.input[type=checkbox] {
-    margin-top: 16px;
-  } 
-.footer-area{
-    background-image: rgba(36, 34, 34, 0.781);
-    height: 250px;
-    margin-bottom: 0px;
+ 
+.submit{
+  
+    width: 50%;
+    margin: 30px 0px 25px 80px;
+    font-size: 30px;
+    color: rgb(7, 40, 43);
+    
+}
+#signup{
+    margin-top: 20px; 
+}
+#signup input{
+   
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+#signup button{
+    margin-top: 15px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 15px;
 }
 footer{
+    background-color: rgba(7, 7, 26, 0.973);
+    margin-bottom: 0px;
+    padding-bottom: 90px;
     text-align: center;
-    padding: 25px;
+    height: 150px;
+    
 }
 footer h1{
-    font-size: 40px;
+    font-size: 30px;
     color: gray;
+    padding-top: 80px;
 }
 footer p{
     color: white;
+    margin-bottom: 100px;
+    
 }
