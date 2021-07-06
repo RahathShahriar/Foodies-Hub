@@ -15,10 +15,11 @@ body{
 .half-width{
     width: 50%;
     padding: 3%;
+    
 }
 .half-width-img{
-    width: 50%;
-    height: 50%;
+    width: 10% 10%;
+    
     
 }
 h1{
@@ -37,4 +38,32 @@ h1{
 }
 p{
     color: black; 
+}
+.about{
+    background-image: url("Images/Frame-57.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    background-attachment: fixed;
+    padding-right: 3%;
+}
+.a
+.recipies{
+    box-shadow: 5px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+}
+#id{
+    border-left: 7px solid;
+    border-item
+    border-image-slice: 1;
+}
+.footer{
+    background-image: Black;
+    
 }
